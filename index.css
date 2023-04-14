@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px black solid;
+}
+
+.item{
+    
+    width: 250px;
+    border: 1px black solid;
+}
+
+.item1{
+    height: 100px;
+    background-color: red;
+}
+
+.item2{
+    
+    height: 120px;
+    background-color: yellow;
+}
+
+.item3{
+    height: 50px;
+    background-color: green;
+}
+
